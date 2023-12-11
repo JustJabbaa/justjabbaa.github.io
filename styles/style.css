@@ -1,0 +1,26 @@
+body {
+    margin:0;
+    padding:0;
+}
+nav {
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(9, 38, 53);
+}
+nav a {
+    text-decoration: none;
+    color: rgb(158, 200, 185);
+    border-radius: 20px;
+}
+nav a:hover {
+    color:rgb(9, 38, 53);
+    background-color:rgb(158, 200, 185) ;
+    transition: ease-in .5s;
+}
+nav a, section {
+    padding:10px;
+}
+nav section a{
+    margin:20px;
+}
